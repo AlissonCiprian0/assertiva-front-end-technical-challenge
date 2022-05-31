@@ -17,6 +17,7 @@ Projeto de desafio técnico para a Assertiva
 
 ## Como buildar
 - Faça o clone do projeto na branch master
+- Rode o comando 'npm install' no terminal
 - Rode o comando 'npm run build' no terminal
 - Abra o recém criado repositório 'build'
 - Abra o arquivo 'index.html' em um navegador
