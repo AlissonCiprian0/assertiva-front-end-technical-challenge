@@ -1,55 +1,32 @@
 # Desafio Técnico de Front-End - Assertiva Soluções
+Projeto de desafio técnico para a Assertiva
 
-Aqui na Assertiva temos times de desenvolvimento ágeis e com
-foco em fazer as coisas acontecerem. Estamos continuamente buscando
-novas tecnologias que melhor atendam as necessidades de nossos produtos. Uma outra busca constante, principalmente para desenvolvedores front-end, é proporcionar uma melhor experiência de uso para nossos usuários.
+- [Requisitos](#requisitos)
+- [Como buildar](#build)
+- [Link de acesso](#access-link)
 
-O que preparamos é um teste com um pouquinho do que você encontrará no dia-a-dia da squad na Assertiva. O desafio técnico consiste em criar uma SPA para acompanhamento de desempenho de lojas, conforme protótipo e dados disponibilizados. Esse tipo de problema é bastante comum e oferece várias situações que precisamos apresentar as informações tanto em lista quanto em mapa.
+<a name="requisitos"/>
 
-## Instruções
-
-- Faça um fork desse projeto e ao final do processo nos envie o link do seu fork.
-- Utilize a branch master apenas para publicar versões funcionais seguidas de suas respectivas Tags.
-- Crie e utilize uma branch 'Develop' para realizar todo o desenvolvimento do desafio.
-
-## Desenvolvimento
-
-- Desenvolva um Sistema de build simples para a SPA.
-
-### Requisitos obrigatórios
-
+## Requisitos do desafio
 - **Mapa**:​ exibir todas as lojas no mapa. As lojas com faturamento inferior ao mínimo esperado devem estar em vermelho.
 - **Listagem paginada**:​ ao carregar a página, já trazer uma listagem com 10 lojas por página ordenadas pelo nome da loja, seguindo o protótipo. As lojas com faturamento inferior ao configurado no campo “Faturamento mínimo esperado” devem estar em vermelho.
 - **Pesquisa**:​ Filtrar as lojas pelo nome, tanto na lista quanto no mapa, durante a digitação do texto digitado.
 - **Faturamento mínimo esperado**:​ O valor default desse campo é 15.000,00. As alterações neste campo devem refletir na listagem e no mapa.
 
-### Artefatos disponibilizados
+<a name="build"/>
 
-- JSON com os dados da aplicação que esta em ```public/data/data.json ```| ou também pode usar o endpoint mock https://run.mocky.io/v3/8c35bbb1-eed6-4eeb-aa83-1132b5830f57 (uso obrigatório)
-- Imagens
-- Fonts
+## Como buildar
+- Faça o clone do projeto na branch master
+- Rode o comando 'npm run build' no terminal
+- Abra o recém criado repositório 'build'
+- Abra o arquivo 'index.html' em um navegador
 
-### Protótipo
+### Observação
+Caso tenha algum problema com o build, tente utilizar a versão do node usada no projeto (v16.13.0).
+Uma versão um pouco mais antiga foi usada pois eu estava tendo problemas com a mais nova.
 
-Não é necessário fazer igual o protótipo. ( Surpreenda-nos! 😁)
+<a name="access-link"/>
 
-![Protótipo](/public/prototype/prototipo.png)
-
-### Lib's obrigatórias no desenvolvimento
-
-- [Material-UI](https://material-ui.com/)
-- [google-react-map](https://github.com/google-map-react/google-map-react)
-
-Chave da API Google Maps:
-
-```shell
-AIzaSyC6munUy9XhZ5Z5frB4YmnrNvatlZJBytw
-```
-
-### Diferenciais
-
-- Utilização de Pré-Processadores de CSS ([SASS](https://sass-lang.com/) , [LESS](https://lesscss.org/)) ou [styled-components](https://mui.com/pt/system/styled/)
-- [ESLint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- Testes Unitários [Jest](https://jestjs.io/pt-BR/) e [Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
-- CSS responsivo
+## Link de acesso
+Se preferir, acesse o projeto por esse link
+[Desafio Assertiva](https://6295596433f811477babdcb8--chic-caramel-18d520.netlify.app/ "Desafio Assertiva").
